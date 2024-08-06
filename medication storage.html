@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        h3 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .value {
+            height: 50px;
+            width: 250px;
+            border-radius: 20px;
+            background-color: rgba(236, 241, 255, 1);
+            padding: 10px;
+        }
+        .arrow {
+            height: 30px;
+            width: 25px;
+            margin: 10px 20px 60px 215px;
+        }
+        .section {
+            display: inline-block;
+            margin: 0px 15px 20px 15px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #first-section {
+            height: fit-content;
+            width: 600px;
+            float: left;
+        }
+        #second-section {
+            float: right;
+        }
+        .response {
+            height: 80vh;
+            width: 550px;
+            background-color: rgba(236, 241, 255, 1);
+            border-radius: 25px;
+            margin-right: 60px;
+            padding: 20px;
+        }
+        #button {
+            height: 60px;
+            width: 180px;
+            border-radius: 25px;
+            background-color: rgba(28, 40, 161, 1);
+            color: rgba(236, 241, 255, 1);
+            margin-left: 180px;
+            margin-bottom: 40px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        #button:hover {
+            background-color: rgba(40, 60, 200, 1);
+        }
+        /* Media Queries */
+
+            /* Large Desktops */
+            @media (min-width: 1200px) {
+            #first-section {
+                width: 700px;
+            }
+            #second-section {
+                margin-right: 100px;
+            }
+            .response {
+                width: 650px;
+            }
+            }
+
+            /* Desktops */
+            @media (min-width: 992px) and (max-width: 1199px) {
+            #first-section {
+                width: 600px;
+            }
+            #second-section {
+                margin-right: 50px;
+            }
+            .response {
+                width: 550px;
+            }
+            }
+
+            /* Tablets */
+            @media (min-width: 768px) and (max-width: 991px) {
+            #first-section {
+                width: 500px;
+            }
+            #second-section {
+                margin-right: 20px;
+            }
+            .response {
+                width: 450px;
+            }
+            .section {
+                margin: 0px 10px 10px 10px;
+            }
+            }
+
+            /* Mobiles */
+            @media (max-width: 767px) {
+            #first-section {
+                width: 100%;
+                float: none;
+            }
+            #second-section {
+                float: none;
+                margin-right: 0px;
+            }
+            .response {
+                width: 100%;
+                height: auto;
+                margin-right: 0px;
+            }
+            .section {
+                margin: 0px 10px 10px 10px;
+                display: block;
+            }
+            #button {
+                margin-left: 0px;
+            }
+            }
+
+            /* Small Mobiles */
+            @media (max-width: 480px) {
+            .value {
+                width: 200px;
+            }
+            .arrow {
+                margin: 10px 10px 60px 165px;
+            }
+            #button {
+                width: 150px;
+            }
+            }
+    </style>
+</head>
+
+<body>
+    <h2>Good Morning</h2>
+    <h1>Chibuike Anyiam</h1>
+    <div id="first-section">
+        <div class="section">
+            <h3 class="name">Race and Ethnicity</h3>
+            <div class="value">
+                <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+            </div>
+        </div>
+        <div class="section">
+            <h3 class="name">Height</h3>
+            <div class="value">
+                <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+            </div>
+        </div>
+        <div class="section">
+            <h3 class="name">Weight</h3>
+            <div class="value">
+                <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+            </div>
+        </div>
+        <div class="section">
+            <h3 class="name">Waist circumference</h3>
+            <div class="value">
+                <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+            </div>
+        </div>
+        <div class="section">
+            <h3 class="name">Body Mass Index (BMI)</h3>
+            <div class="value">
+                <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+            </div>
+        </div>
+    </div>
+    <div id="second-section">
+        <div class="response">
+            <h2>Response</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        </div>
+        <button id="button">Submit</button>
+    </div>
+</body>
+</html>

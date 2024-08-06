@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>log in</title>
+        <style>
+            body{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            }
+            #first-section{
+                height: fit-content;
+                width: 500px;
+                float: left;
+            }
+            #second-section{
+                height: fit-content;
+                margin-top: 50px;
+                margin-right: 320px;
+                float: right;
+            }
+            .arrow-image{
+                display: inline-block;
+                margin: 40px 0px 0px 40px;
+                width: fit-content;
+            }
+            .log-in {
+                text-align: center;
+                padding-bottom: 90px;
+            }
+            .welcome {
+                margin: 20px 0px 70px 40px;
+            }
+            .entery {
+                margin-left: 40px;
+            }
+            .input{
+                margin-left: 40px;
+                height: 45px;
+                width: 365px;
+                background-color: rgba(236, 241, 255, 1);
+                border-radius: 13px;
+                color: rgba(99, 118, 185, 1);
+            }
+
+
+
+            h3 {
+                padding-top: 9px;
+                padding-left: 10px;
+            }
+
+            .forget-password {
+                margin: 4px 0px 10px 315px;
+                font-size: 12px;
+            }
+
+            .button {
+                height: 45px;
+                width: 207px;
+                background-color: rgba(28, 40, 161, 1);
+                text-align: center;
+                border-radius: 30px;
+                margin-left: 100px;
+                color: white;
+                font-size: 18px;
+                cursor: pointer;
+            }
+
+            .login > h1 {
+                padding-top: 9px;
+            }
+
+            .log-in, .welcome {
+                color: rgba(28, 40, 161, 1)
+            }
+
+            h4 {
+                margin: 10px 0px 20px 160px;
+                font-size: 13px;
+            }
+
+            .circle {
+                position: absolute;
+                display: inline-block;
+            }
+
+            .google {
+                position: relative;
+                margin: 10px 0px 0px 10px;
+            }
+
+            #google {
+                margin-left: 180px;
+            }
+
+            .sign-up {
+                margin-left: 110px;
+            }
+
+            .sign-up > #link {
+                color:rgba(28, 40, 161, 1);
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+
+    <body>
+            <div class="arrow-image"><img src="./back arrow.png" alt="arrow" /> </div>
+            <h1 class="log-in">Log in</h1>
+            <h1 class="welcome">Welcome</h1>
+        <div id="first-section">
+            <h2 class="entery">Email or Mobile Number</h2>
+            <input class="input"></input>
+            <h2 class="entery">Password</h2>
+            <input class="input"> </input>
+            <h4 class="forget-password">Forget password</h4>
+        </div>
+        <div id="second-section">
+            <button class="button">Log In</button>
+            <h4>or Sign in with</h4>
+            <div id="google"> 
+                <img class="circle" src="./circle.png"/>
+                <img class="google" src="./google.png"/>
+            </div>
+            <h4 class="sign-up">Don't have an account? <a id="link" href="./sign up.html"> Sign up </a></h4>
+        </div>
+    </body>
+</html>

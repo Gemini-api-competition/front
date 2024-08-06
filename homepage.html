@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>home page</title>
+        <style>
+            body{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h1, h2{
+                margin-left: 20px;
+            }
+            .value{
+                height: 50px;
+                width: 250px;
+                border-radius: 20px;
+                background-color: rgba(236, 241, 255, 1);
+            }
+            .arrow{
+                height: 30px;
+                width: 25px;
+                margin: 10px 20px 60px 215px;
+            }
+            .section{
+                display: inline-block;
+                margin: 0px 15px 10px 15px;
+            }
+            #first-section{
+                height: fit-content;
+                width: 600px;
+                float: left;
+            }
+            .response{
+                height: 50vh;
+                width: 40%;
+                background-color: rgba(236, 241, 255, 1);
+                border-radius: 25px;
+                margin-right: 60px;
+                float: right;
+            }
+            #enter-bar{
+                height: 60px;
+                width: 180px;
+                border-radius: 25px;
+                background-color: rgba(28, 40, 161, 1);
+                margin-left: 180px;
+                margin-bottom: 40px;
+                color: rgba(236, 241, 255, 1);
+                font-size: 18px;
+            }
+            @media (min-width: 767.5px) and (max-width: 1180px) {
+                .value{
+                    height: 30px;
+                    width: 200px;
+                }
+                .arrow{
+                    height: 20px;
+                    width: 18px;
+                    margin: 5px 10px 30px 170px;
+                }
+                #first-section{
+                height: fit-content;
+                width: 500px;
+                float: left;
+                }
+            }
+            @media (max-width: 767px) {
+                .value{
+                    height: 30px;
+                    width: 100px;
+                    background-color: brown;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h2>Good Morning</h2>
+        <h1>Chibuike Anyiam</h1>
+        <div id="first-section">
+            <div class="section">
+                <h3 class="name">Race and Ethnicity</h3>
+                <div class="value">
+                    <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+                </div>
+            </div>
+            <div class="section">
+                <h3 class="name">Height</h3>
+                <div class="value">
+                    <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+                </div>
+            </div>
+            <div class="section">
+                <h3 class="name">Weight</h3>
+                <div class="value">
+                    <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+                </div>
+            </div>
+            <div class="section">
+                <h3 class="name">Waist circumference</h3>
+                <div class="value">
+                    <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+                </div>
+            </div>
+            <div class="section">
+                <h3 class="name"> Waist-To-Hip Ratio (WHR)</h3>
+                <div class="value">
+                    <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+                </div>
+            </div>
+            <div class="section">
+                <h3 class="name">Physical activity level</h3>
+                <div class="value">
+                    <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+                </div>
+            </div>
+            <div class="section">
+                <h3 class="name">Dietary habit</h3>
+                <div class="value">
+                    <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+                </div>
+            </div>
+            <div class="section">
+                <h3 class="name">Medical record</h3>
+                <div class="value">
+                    <img class="arrow" src="./arrow down.png" alt="arrow down"/>
+                </div>
+            </div>
+            <button id="enter-bar">Process</button>
+        </div>
+        <div class="response"></div>
+        </div>
+    </body>
+</html>

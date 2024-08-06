@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>sign in</title>
+        <style>
+            body{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            }
+            .arrow-image{
+                display: inline-block;
+                margin: 40px 0px 0px 40px;
+                width: fit-content;
+            }
+            .account{
+                text-align: center;
+                padding-bottom: 90px;
+                color: rgba(28, 40, 161, 1);
+            }
+            #first-section{
+                height: 110vh;
+                width: 500px;
+                float: left;
+            }
+            #second-section{
+                height: fit-content;
+                margin-top: 190px;
+                margin-right: 320px;
+                float: right;
+            }
+            .entery{
+                margin-left: 40px;
+            }
+            .input{
+                margin-left: 40px;
+                height: 45px;
+                width: 365px;
+                background-color: rgba(236, 241, 255, 1);
+                border-radius: 13px;
+                color: rgba(99, 118, 185, 1);
+            }
+            h3 {
+                padding-top: 9px;
+                padding-left: 10px;
+                color: rgba(128, 156, 255, 1);
+            }
+            #terms{
+                width: 240px;
+                height: fit-content;
+                text-align: center;
+                margin-left: 90px;
+            }
+            .button {
+                height: 45px;
+                width: 207px;
+                background-color: rgba(28, 40, 161, 1);
+                text-align: center;
+                border-radius: 30px;
+                margin-left: 100px;
+                color: white;
+                font-size: 18px;
+                cursor: pointer;
+            }
+            .sign-up > h1 {
+                padding-top: 9px;
+            }
+            #option{
+                margin-left: 150px;
+            }
+            .circle{
+                position: absolute;
+            }
+            .google{
+                position: relative;
+                margin: 10px 0px 0px 10px;
+            }
+            #google{
+                margin-left: 180px;
+            }
+            #option{
+                margin-left: 160px;
+            }
+            .log-in {
+                margin-left: 110px;
+            }
+            h4 {
+                font-size: 13px;
+            }
+            .log-in > #link {
+                color:rgba(28, 40, 161, 1);
+                text-decoration: none;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="arrow-image"><img src="./back arrow.png" alt="arrow" /> </div>
+        <h1 class="account">New Account</h1>
+        <div id="first-section">
+            <h2 class="entery">Full name</h2>
+            <input class="input"></input>
+            <h2 class="entery">Password</h2>
+            <input class="input"> </input>
+            <h2 class="entery" >Email</h2>
+            <input class="input"></input>
+            <h2 class="entery" >Mobile Number</h2>
+            <input class="input"></input>
+            <h2 class="entery" >Date Of Birth</h2>
+            <input class="input"></input>
+        </div>
+        <div id="second-section">
+            <div id="terms"><h4 class="terms">By continuing, you agree to Terms of Use and Privacy Policy.</h4></div>
+            <button class="button">Sign Up</button>
+            <h4 id="option">or Sign up with</h4>
+            <div id="google"> 
+                <img class="circle" src="./circle.png"/>
+                <img class="google" src="./google.png"/>
+            </div>
+            <h4 class="log-in">Don't have an account? <a id="link" href="./log in.html">Log In</a></h4>
+        </div>
+    </body>
+</html>
